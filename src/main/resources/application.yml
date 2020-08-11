@@ -1,0 +1,48 @@
+app:
+   name: My application
+   description : Weclome to ${app.name}
+
+
+my:
+   greeting: Hi Sai Krishna
+   list.values: One,Two,Three
+
+
+db:
+   connection: "{connectionString: 'http://www.google.com', userName: 'foo', password:'pass'}"
+   host : 127.0.0.1
+   port: 1200
+
+
+management.endpoints.web.exposure.include: "*"
+
+
+spring.cloud.config.uri: http://localhost:8888
+
+
+spring.application.name: spring-boot-config
+
+
+## To set profiles for configuring application.properties
+#spring.profiles.active: test
+
+
+
+
+
+## properties file format
+#
+#app.name=My application
+#app.description =Weclome to ${app.name}
+#
+#
+#my.greeting=Hi Sai Krishna
+#my.list.values=One,Two,Three
+#
+#
+#db.connection={connectionString: 'http://www.google.com', userName: 'foo', password:'pass'}
+#db.host =127.0.0.1
+#db.port=1200
+#
+#
+#management.endpoints.web.exposure.include=*

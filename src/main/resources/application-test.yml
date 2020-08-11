@@ -1,0 +1,41 @@
+app:
+   name: My application
+   description : Weclome to ${app.name}
+
+
+my:
+   greeting: Hi Sai Krishna
+   list.values: One,Two,Three
+
+
+db:
+   connection: test-connection-string-here
+   host : 127.0.0.1
+   port: 2400
+
+
+management.endpoints.web.exposure.include: "*"
+
+
+
+
+
+
+
+
+## properties file format
+#
+#app.name=My application
+#app.description =Weclome to ${app.name}
+#
+#
+#my.greeting=Hi Sai Krishna
+#my.list.values=One,Two,Three
+#
+#
+#db.connection={connectionString: 'http://www.google.com', userName: 'foo', password:'pass'}
+#db.host =127.0.0.1
+#db.port=1200
+#
+#
+#management.endpoints.web.exposure.include=*
